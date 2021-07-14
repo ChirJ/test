@@ -40,6 +40,7 @@ public class SysAdminController {
         if(id!=null){
            SysAdmin admin =  sysAdminService.getAdminById(id);
            if(admin!=null){
+               System.out.println("123");
                return BasicResponse.success(admin);
            }else {
                System.out.println("nihao");
