@@ -26,7 +26,7 @@ public class SysAdminController {
     public BasicResponse addAdmin(SysAdmin admin){
         if(admin.getName()!=null && admin.getPwd()!=null){
             if(sysAdminService.addAdmin(admin)){
-                return BasicResponse.success("插入成");
+                return BasicResponse.success("插入成88888iuhihnniu");
             }else {
                 return BasicResponse.error("1002","插入失败，服务繁忙");
             }
