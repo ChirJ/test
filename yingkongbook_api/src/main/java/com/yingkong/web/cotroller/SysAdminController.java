@@ -42,7 +42,9 @@ public class SysAdminController {
            if(admin!=null){
                return BasicResponse.success(admin);
            }else {
+               System.out.println("nihao");
                return BasicResponse.error("1002","用户不存在或服务器繁忙");
+
            }
         }else {
             return BasicResponse.error("1001","没有提交参数信息");
